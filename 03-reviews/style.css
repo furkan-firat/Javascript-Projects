@@ -1,0 +1,24 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: lightblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-circle {
+   max-width: 250px;   /* Set the maximum width for the circle */
+  max-height: 250px;  /* Set the maximum height for the circle */
+  width: auto;        /* Allow the width to adjust based on the aspect ratio */
+  height: auto;       /* Allow the height to adjust based on the aspect ratio */
+}
+
+.container{
+    width: 620px;
+}
